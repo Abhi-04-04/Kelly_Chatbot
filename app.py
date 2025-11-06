@@ -19,4 +19,4 @@ with gr.Blocks() as demo:
     gr.Markdown("# Chat with Kelly, the Skeptical AI Scientist-Poet 👩‍🔬📝")
     chat = gr.ChatInterface(poetic_kelly_response)
 
-demo.launch(share=True)
+demo.launch
